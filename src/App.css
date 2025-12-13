@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.placeholder {
+
+  background: radial-gradient(ellipse at top, white, transparent),
+    radial-gradient(ellipse at bottom, #c8eaff, transparent);
+  background-attachment: fixed;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+
+  margin: 0%;
+
+  padding-bottom: 30px;
+
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 137px;
+  width: 284.5px;
+  /* 1565 X 754 */
+  padding-top: 30px;
+  animation: fadeDown 1.5s;
+}
+
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px)scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px)scale(1);
+  }
+}
+
+.pagedescriptor {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: italic;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+.practicepic {
+  height: 137px;
+  width: 284.5px;
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.tabcontent {
+
+  display: block;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0%;
+
+}
+
+.tabbuttons {
+  background: #001037;
+
+}
+
+.individualbutton {
+  padding: 0.9rem 1.8rem;
+  font-weight: 700;
+  border: transparent;
+  border-radius: 0;
+  cursor: pointer;
+  position: relative;
+  background-color: #001037;
+
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 1;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+.individualbutton::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #CF1020;
+  transform: translateX(-101%);
+  transition: all .2s;
+  z-index: -1;
+  text-decoration: none;
+}
+
+.individualbutton:hover::before {
+  transform: translateX(0);
+}
+
+
+.indvidualbutton::after {
+  color: white;
+  background-color: #CF1020;
+
+}
+
+.companyinfo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.businessinfobox {
+  border: 5px solid #001037;
+  background-color: #7DBFE8;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 375px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+@media (max-width: 400px) {
+  .businessinfobox {
+    border: 5px solid #001037;
+    background-color: #7DBFE8;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+}
+
+
+.businessinfotitle {
+  background: #001037;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: 'Roboto Condensed', sans-serif;
+
+
+
+}
+
+.tableinfo {
+  border: 5px solid #4281A4;
+  background-color: #001037;
+  margin-left: auto;
+  margin-right: auto;
+  width: 284.5px;
+  border-radius: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tablecontent {
+  display: flex;
+  justify-content: center;
+}
+
+.quickinfo {
+  font-size: 18px;
+  font-weight: 450;
+}
+
+.map {
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+
+.tablecontainer {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.inventorytable {
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  justify-content: center;
+  width: 695px;
+  height: 630px;
+  border: none;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+  -o-animation: fadeIn 4s;
+  -ms-animation: fadeIn 4s;
+}
+
+.inventoryinfo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 375;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media (max-width: 700px) {
+  .inventorytable {
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    justify-content: center;
+    width: 90%;
+    height: 630px;
+    border: none;
+  }
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  padding: 0.9rem 1.8rem;
+  font-weight: 700;
+  border: transparent;
+  cursor: pointer;
+  position: relative;
+  background-color: #001037;
+
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 1;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
