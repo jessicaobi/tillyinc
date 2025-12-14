@@ -12,7 +12,7 @@ function NavBar() {
         <div className="tabcontent">
             <div className="tabbuttons">
                 <div className="linkname">
-                    <Link to="/home">
+                    <Link to="/">
                         <button className="individualbutton">Home</button>
                     </Link>
                 </div>
